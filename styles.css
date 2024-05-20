@@ -4,11 +4,13 @@ body {
   margin: 0em;
 }
 
+/* These items change the styles for the header block above each page. */
 header {
   background-color: #1A1363;
   color: #F8F8F8;
   font-size: 2em;
   padding: 0.5em;
+  box-shadow: 1px 1px 5px 0px #080808;
 }
 
 header a {
@@ -20,6 +22,31 @@ header a:visited {
   color: #F8F8F8;
 }
 
+header label {
+  float: right;
+}
+
+/* These items change the styles for the items in the hamburger menu. */
+header nav {
+  position: absolute;
+  width: 100%;
+  left: 0em;
+  top: 2.36em;
+  background-color: #333333;
+  display: none;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0.5em;
+}
+
+header nav ul li {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+/* These items change the styles for the main document contents. */
 main {
   margin: 1em;
 }
