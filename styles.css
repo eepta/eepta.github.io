@@ -36,14 +36,13 @@ header nav {
   display: none;
 }
 
-header nav ul {
-  list-style: none;
-  margin: 0.5em;
+header nav a {
+  padding: 0.5em;
+  display: block;
 }
 
-header nav ul li {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+header nav a:hover {
+  background-color: #666666;
 }
 
 /* These items change the styles for the main document contents. */
