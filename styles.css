@@ -1,5 +1,25 @@
 body {
-	font-family: Open Sans, Arial;
+  font-family: Open Sans, Arial;
   color: #050505;
-	margin: 1em;
+  margin: 0em;
 }
+
+header {
+  background-color: #1A1363;
+  color: #F8F8F8;
+  font-size: 2em;
+  padding: 0.5em;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:visited {
+  color: #F8F8F8;
+}
+
+main {
+  margin: 1em;
+}
+
